@@ -1,0 +1,8 @@
+-r requirements.txt
+pypdf>=4          # unir PDF en las pruebas
+reportlab>=4      # generar PDF de prueba
+pytest>=8         # opcional: las pruebas tambien corren con "python -m unittest"
+# --- opcionales ---
+# rapidfuzz       # comparacion de nombres mas rapida (hoy: difflib de la libreria estandar)
+# easyocr         # OCR sin instalar Tesseract (mas pesado)
+# streamlit       # interfaz web: implementar Prompter sobre widgets

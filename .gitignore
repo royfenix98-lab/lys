@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+# datos reales: NUNCA al repositorio
+*.xlsm
+data/
+altas_catalogo.xlsx
+LY_salida*.xlsx
+salidas/
+config/config.json

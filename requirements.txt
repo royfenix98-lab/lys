@@ -1,0 +1,6 @@
+# --- nucleo ---
+openpyxl>=3.1          # leer catalogo / escribir el LY conservando formato
+pdfplumber>=0.11       # PDF con texto: palabras con coordenadas (recibos, facturas, estados de cuenta)
+pypdfium2>=4.30        # renderizar paginas de PDF a imagen (para OCR), sin poppler
+pytesseract>=0.3.10    # OCR (requiere el programa Tesseract + idioma 'spa')
+Pillow>=10
